@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import WatsonDeveloperCloud
 
 class ViewController: UIViewController {
     
+    var theDoctor : Doctor = Doctor.init(uniqueID: "fake", firstName: "fake", lastName: "fake", emailAddress: "fake", password: "fake", specialistIn: ["fake"], image: UIImage(named: "Doctor1")!)
+   
     @IBOutlet weak var eyeView: UIImageView!
     var keyboardAdjusted = false
     var lastKeyboardOffset : CGFloat = 0.0
@@ -32,6 +35,8 @@ class ViewController: UIViewController {
         sendBtn.hidden = true
         questionField.addTarget(self, action:#selector(ViewController.edited), forControlEvents:UIControlEvents.EditingChanged)
         self.cancelBtn.hidden = true
+        
+        
     }
     
     func edited() {
@@ -82,6 +87,23 @@ class ViewController: UIViewController {
         
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        if(segue.identifier == "showCards") {
+            
+            let nextViewController = (segue.destinationViewController as! DoctorPickerViewController)
+            nextViewController.incomingMessageText = questionField.text!
+            nextViewController.doctorMatch = theDoctor
+            
+        
+        }
+        
+        }
+    
+    func update() {
+        performSegueWithIdentifier("showCards", sender: self)
+    }
+    
     @IBAction func sendDidTouch(sender: AnyObject) {
         
         if questionField.text == "" {
@@ -95,12 +117,38 @@ class ViewController: UIViewController {
             questionField.userInteractionEnabled = false
             rotateCross()
             
-            performSegueWithIdentifier("showCards", sender: self)
+            //Temporary Feature
+            
+          //   _ = NSTimer.scheduledTimerWithTimeInterval(3, target: self, selector: #selector(UIMenuController.update), userInfo: nil, repeats: false)
+            
+            let alchemyLanguageInstance = AlchemyLanguage(apiKey: "93a0b64d4a104eb622e7a54db938c4cccaedd14f")
+            let keywordsParam = AlchemyLanguage.GetKeywordsParameters.init()
+
+            
+            alchemyLanguageInstance.getRankedKeywords(requestType: .Text, html: nil, url: nil, text: questionField.text!, completionHandler: {(error: NSError, returnValue: WatsonDeveloperCloud.Keywords) -> Void in
+                print("entered completion")
+                print(returnValue.language)
+                print(returnValue.keywords?.count)
+                for(var i = 0; i < returnValue.keywords?.count; i++){
+                    DoctorSelect.sharedInstance.theKeywords.append(returnValue.keywords![i])
+                    print(returnValue.keywords![i])
+                }
+                self.theDoctor = DoctorSelect.sharedInstance.findADoctor("-1")
+                DoctorSelect.sharedInstance.currentDoc = self.theDoctor
+                print(self.theDoctor.uniqueID)
+                self.performSegueWithIdentifier("showCards", sender: self)
+                
+            })
+            
+            
             
         }
         
         
     }
+    
+
+
 }
 
 extension ViewController {
@@ -162,6 +210,8 @@ extension ViewController {
         textField.resignFirstResponder()
         return true;
     }
+    
+    
 }
 
 

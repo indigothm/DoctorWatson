@@ -8,9 +8,13 @@
 
 import UIKit
 
-class DoctorPickerViewController: UIViewController {
+class DoctorPickerViewController: UIViewController, CardReplacement {
     
     @IBOutlet weak var cardPlace: UIView!
+    @IBOutlet weak var messageText: UILabel!
+    var doctorMatch: Doctor!
+    
+    var incomingMessageText: String = "Loading"
     
     func loadViewNib(nibName:String) -> UIView {
         let view = (NSBundle.mainBundle().loadNibNamed(nibName, owner: nil, options: nil) as NSArray).firstObject as! UIView
@@ -21,10 +25,12 @@ class DoctorPickerViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        let card = loadViewNib("DoctorCard")
+        let card = loadViewNib("DoctorCard") as! DoctorCard
+        card.delegate = self
+        card.setup(doctorMatch)
         card.frame = CGRectMake(0, 0, 325, 235)
         cardPlace.addSubview(card)
-        
+        messageText.text = incomingMessageText
         
     }
 
@@ -33,6 +39,13 @@ class DoctorPickerViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func switchView() {
+         performSegueWithIdentifier("loading", sender: self)
+    }
+    
+    @IBAction func closeSessionDidTouch(sender: AnyObject) {
+    dismissViewControllerAnimated(true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation

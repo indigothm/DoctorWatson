@@ -16,6 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        Smooch.initWithSettings(SKTSettings(appToken: "e3rcgxwcxlvua595m5r2phyar"))
+        
+        var settings = SKTSettings(appToken: "e3rcgxwcxlvua595m5r2phyar")
+        settings.conversationAccentColor = UIColor(red:0.85, green:0.0, blue:0.15, alpha:1.0);
+        settings.conversationStatusBarStyle = UIStatusBarStyle.LightContent;
+        
+        UINavigationBar.appearance().barTintColor = UIColor.whiteColor()
+        UINavigationBar.appearance().tintColor = UIColor(red:0.85, green:0.0, blue:0.15, alpha:1.0)
+        UINavigationBar.appearance().titleTextAttributes = [ NSForegroundColorAttributeName : UIColor(red:0.85, green:0.0, blue:0.15, alpha:1.0)]
+        
         return true
     }
 

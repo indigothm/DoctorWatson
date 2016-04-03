@@ -15,7 +15,55 @@
 		3F0C5DB81CB0ACE3005E0D75 /* DoctorCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C5DB71CB0ACE3005E0D75 /* DoctorCard.xib */; };
 		3F0C5DBA1CB0B11C005E0D75 /* DoctorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C5DB91CB0B11C005E0D75 /* DoctorPickerViewController.swift */; };
 		3F0C5DBC1CB0B1F4005E0D75 /* DoctorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C5DBB1CB0B1F4005E0D75 /* DoctorCard.swift */; };
+		3F0C5DC21CB0CB2A005E0D75 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C5DC11CB0CB2A005E0D75 /* LoadingViewController.swift */; };
+		3F7C99E51CB0DB070062EEA5 /* Doctor1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C99DC1CB0DB070062EEA5 /* Doctor1.png */; };
+		3F7C99E61CB0DB070062EEA5 /* Doctor2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C99DD1CB0DB070062EEA5 /* Doctor2.png */; };
+		3F7C99E71CB0DB070062EEA5 /* Doctor3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C99DE1CB0DB070062EEA5 /* Doctor3.png */; };
+		3F7C99E81CB0DB070062EEA5 /* Doctor4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C99DF1CB0DB070062EEA5 /* Doctor4.png */; };
+		3F7C99E91CB0DB070062EEA5 /* Doctor5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C99E01CB0DB070062EEA5 /* Doctor5.png */; };
+		3F7C99EA1CB0DB070062EEA5 /* Doctor6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C99E11CB0DB070062EEA5 /* Doctor6.png */; };
+		3F7C99EB1CB0DB070062EEA5 /* Doctor7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C99E21CB0DB070062EEA5 /* Doctor7.png */; };
+		3F7C99EC1CB0DB070062EEA5 /* Doctor8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C99E31CB0DB070062EEA5 /* Doctor8.png */; };
+		3F7C99ED1CB0DB070062EEA5 /* Doctor9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C99E41CB0DB070062EEA5 /* Doctor9.png */; };
+		3F7C99F51CB0DB320062EEA5 /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7C99EE1CB0DB320062EEA5 /* XCGLogger.framework */; };
+		3F7C99F61CB0DB320062EEA5 /* XCGLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7C99EE1CB0DB320062EEA5 /* XCGLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F7C99F71CB0DB320062EEA5 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7C99EF1CB0DB320062EEA5 /* Alamofire.framework */; };
+		3F7C99F81CB0DB320062EEA5 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7C99EF1CB0DB320062EEA5 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F7C99F91CB0DB320062EEA5 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7C99F01CB0DB320062EEA5 /* AlamofireObjectMapper.framework */; };
+		3F7C99FA1CB0DB320062EEA5 /* AlamofireObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7C99F01CB0DB320062EEA5 /* AlamofireObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F7C99FB1CB0DB320062EEA5 /* HTTPStatusCodes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7C99F11CB0DB320062EEA5 /* HTTPStatusCodes.framework */; };
+		3F7C99FC1CB0DB320062EEA5 /* HTTPStatusCodes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7C99F11CB0DB320062EEA5 /* HTTPStatusCodes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F7C99FD1CB0DB320062EEA5 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7C99F21CB0DB320062EEA5 /* ObjectMapper.framework */; };
+		3F7C99FE1CB0DB320062EEA5 /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7C99F21CB0DB320062EEA5 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F7C99FF1CB0DB320062EEA5 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7C99F31CB0DB320062EEA5 /* Starscream.framework */; };
+		3F7C9A001CB0DB320062EEA5 /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7C99F31CB0DB320062EEA5 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F7C9A011CB0DB320062EEA5 /* WatsonDeveloperCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7C99F41CB0DB320062EEA5 /* WatsonDeveloperCloud.framework */; };
+		3F7C9A021CB0DB320062EEA5 /* WatsonDeveloperCloud.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7C99F41CB0DB320062EEA5 /* WatsonDeveloperCloud.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F7C9A061CB0DB5C0062EEA5 /* DoctorObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C9A041CB0DB5C0062EEA5 /* DoctorObj.swift */; };
+		3F7C9A071CB0DB5C0062EEA5 /* DocDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C9A051CB0DB5C0062EEA5 /* DocDatabase.swift */; };
+		3FDE03B71CB14577004BE5E9 /* DoctorSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDE03B61CB14577004BE5E9 /* DoctorSelect.swift */; };
+		6892F892C15AB8776081AF59 /* Pods_MDChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5446AE688EA44CE9A1A23F46 /* Pods_MDChat.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F7C9A031CB0DB320062EEA5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3F7C99F61CB0DB320062EEA5 /* XCGLogger.framework in Embed Frameworks */,
+				3F7C9A001CB0DB320062EEA5 /* Starscream.framework in Embed Frameworks */,
+				3F7C99FA1CB0DB320062EEA5 /* AlamofireObjectMapper.framework in Embed Frameworks */,
+				3F7C99FE1CB0DB320062EEA5 /* ObjectMapper.framework in Embed Frameworks */,
+				3F7C99F81CB0DB320062EEA5 /* Alamofire.framework in Embed Frameworks */,
+				3F7C9A021CB0DB320062EEA5 /* WatsonDeveloperCloud.framework in Embed Frameworks */,
+				3F7C99FC1CB0DB320062EEA5 /* HTTPStatusCodes.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3F0C5DA21CB077FD005E0D75 /* MDChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,6 +76,30 @@
 		3F0C5DB71CB0ACE3005E0D75 /* DoctorCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoctorCard.xib; sourceTree = "<group>"; };
 		3F0C5DB91CB0B11C005E0D75 /* DoctorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorPickerViewController.swift; sourceTree = "<group>"; };
 		3F0C5DBB1CB0B1F4005E0D75 /* DoctorCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorCard.swift; sourceTree = "<group>"; };
+		3F0C5DC01CB0C28A005E0D75 /* MDChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F0C5DC11CB0CB2A005E0D75 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		3F7C99DC1CB0DB070062EEA5 /* Doctor1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Doctor1.png; sourceTree = "<group>"; };
+		3F7C99DD1CB0DB070062EEA5 /* Doctor2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Doctor2.png; sourceTree = "<group>"; };
+		3F7C99DE1CB0DB070062EEA5 /* Doctor3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Doctor3.png; sourceTree = "<group>"; };
+		3F7C99DF1CB0DB070062EEA5 /* Doctor4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Doctor4.png; sourceTree = "<group>"; };
+		3F7C99E01CB0DB070062EEA5 /* Doctor5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Doctor5.png; sourceTree = "<group>"; };
+		3F7C99E11CB0DB070062EEA5 /* Doctor6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Doctor6.png; sourceTree = "<group>"; };
+		3F7C99E21CB0DB070062EEA5 /* Doctor7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Doctor7.png; sourceTree = "<group>"; };
+		3F7C99E31CB0DB070062EEA5 /* Doctor8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Doctor8.png; sourceTree = "<group>"; };
+		3F7C99E41CB0DB070062EEA5 /* Doctor9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Doctor9.png; sourceTree = "<group>"; };
+		3F7C99EE1CB0DB320062EEA5 /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XCGLogger.framework; sourceTree = "<group>"; };
+		3F7C99EF1CB0DB320062EEA5 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		3F7C99F01CB0DB320062EEA5 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlamofireObjectMapper.framework; sourceTree = "<group>"; };
+		3F7C99F11CB0DB320062EEA5 /* HTTPStatusCodes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HTTPStatusCodes.framework; sourceTree = "<group>"; };
+		3F7C99F21CB0DB320062EEA5 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = "<group>"; };
+		3F7C99F31CB0DB320062EEA5 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Starscream.framework; sourceTree = "<group>"; };
+		3F7C99F41CB0DB320062EEA5 /* WatsonDeveloperCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WatsonDeveloperCloud.framework; sourceTree = "<group>"; };
+		3F7C9A041CB0DB5C0062EEA5 /* DoctorObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorObj.swift; sourceTree = "<group>"; };
+		3F7C9A051CB0DB5C0062EEA5 /* DocDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocDatabase.swift; sourceTree = "<group>"; };
+		3FDE03B61CB14577004BE5E9 /* DoctorSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorSelect.swift; sourceTree = "<group>"; };
+		5446AE688EA44CE9A1A23F46 /* Pods_MDChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		793DAB3456EE0DD7972BF037 /* Pods-MDChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDChat/Pods-MDChat.debug.xcconfig"; sourceTree = "<group>"; };
+		A57BC5AAAE982D47A8841A33 /* Pods-MDChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDChat/Pods-MDChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +107,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7C99FD1CB0DB320062EEA5 /* ObjectMapper.framework in Frameworks */,
+				3F7C99FF1CB0DB320062EEA5 /* Starscream.framework in Frameworks */,
+				6892F892C15AB8776081AF59 /* Pods_MDChat.framework in Frameworks */,
+				3F7C9A011CB0DB320062EEA5 /* WatsonDeveloperCloud.framework in Frameworks */,
+				3F7C99F71CB0DB320062EEA5 /* Alamofire.framework in Frameworks */,
+				3F7C99F51CB0DB320062EEA5 /* XCGLogger.framework in Frameworks */,
+				3F7C99FB1CB0DB320062EEA5 /* HTTPStatusCodes.framework in Frameworks */,
+				3F7C99F91CB0DB320062EEA5 /* AlamofireObjectMapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DA54446F063CFDE30DF18C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				793DAB3456EE0DD7972BF037 /* Pods-MDChat.debug.xcconfig */,
+				A57BC5AAAE982D47A8841A33 /* Pods-MDChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3F0C5D991CB077FD005E0D75 = {
 			isa = PBXGroup;
 			children = (
+				3F7C99EE1CB0DB320062EEA5 /* XCGLogger.framework */,
+				3F7C99EF1CB0DB320062EEA5 /* Alamofire.framework */,
+				3F7C99F01CB0DB320062EEA5 /* AlamofireObjectMapper.framework */,
+				3F7C99F11CB0DB320062EEA5 /* HTTPStatusCodes.framework */,
+				3F7C99F21CB0DB320062EEA5 /* ObjectMapper.framework */,
+				3F7C99F31CB0DB320062EEA5 /* Starscream.framework */,
+				3F7C99F41CB0DB320062EEA5 /* WatsonDeveloperCloud.framework */,
 				3F0C5DA41CB077FE005E0D75 /* MDChat */,
 				3F0C5DA31CB077FD005E0D75 /* Products */,
+				3DA54446F063CFDE30DF18C7 /* Pods */,
+				FF52CF428D5B6E05390D18EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,17 +158,47 @@
 		3F0C5DA41CB077FE005E0D75 /* MDChat */ = {
 			isa = PBXGroup;
 			children = (
+				3F7C9A041CB0DB5C0062EEA5 /* DoctorObj.swift */,
+				3F7C9A051CB0DB5C0062EEA5 /* DocDatabase.swift */,
+				3F7C99DB1CB0DACF0062EEA5 /* Photos */,
 				3F0C5DA51CB077FE005E0D75 /* AppDelegate.swift */,
 				3F0C5DA71CB077FE005E0D75 /* ViewController.swift */,
 				3F0C5DA91CB077FE005E0D75 /* Main.storyboard */,
+				3F0C5DC11CB0CB2A005E0D75 /* LoadingViewController.swift */,
 				3F0C5DB91CB0B11C005E0D75 /* DoctorPickerViewController.swift */,
 				3F0C5DB71CB0ACE3005E0D75 /* DoctorCard.xib */,
+				3FDE03B61CB14577004BE5E9 /* DoctorSelect.swift */,
 				3F0C5DBB1CB0B1F4005E0D75 /* DoctorCard.swift */,
 				3F0C5DAC1CB077FE005E0D75 /* Assets.xcassets */,
 				3F0C5DAE1CB077FE005E0D75 /* LaunchScreen.storyboard */,
 				3F0C5DB11CB077FE005E0D75 /* Info.plist */,
+				3F0C5DC01CB0C28A005E0D75 /* MDChat-Bridging-Header.h */,
 			);
 			path = MDChat;
+			sourceTree = "<group>";
+		};
+		3F7C99DB1CB0DACF0062EEA5 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				3F7C99DC1CB0DB070062EEA5 /* Doctor1.png */,
+				3F7C99DD1CB0DB070062EEA5 /* Doctor2.png */,
+				3F7C99DE1CB0DB070062EEA5 /* Doctor3.png */,
+				3F7C99DF1CB0DB070062EEA5 /* Doctor4.png */,
+				3F7C99E01CB0DB070062EEA5 /* Doctor5.png */,
+				3F7C99E11CB0DB070062EEA5 /* Doctor6.png */,
+				3F7C99E21CB0DB070062EEA5 /* Doctor7.png */,
+				3F7C99E31CB0DB070062EEA5 /* Doctor8.png */,
+				3F7C99E41CB0DB070062EEA5 /* Doctor9.png */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+		FF52CF428D5B6E05390D18EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5446AE688EA44CE9A1A23F46 /* Pods_MDChat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +208,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F0C5DB41CB077FE005E0D75 /* Build configuration list for PBXNativeTarget "MDChat" */;
 			buildPhases = (
+				0BFAB7BFE526FE40904E7CB1 /* Check Pods Manifest.lock */,
 				3F0C5D9E1CB077FD005E0D75 /* Sources */,
 				3F0C5D9F1CB077FD005E0D75 /* Frameworks */,
 				3F0C5DA01CB077FD005E0D75 /* Resources */,
+				15EF3F5311C2C6BA0AA7CA0B /* Embed Pods Frameworks */,
+				D3EC7FF2427DA4CA0BB9A3D4 /* Copy Pods Resources */,
+				3F7C9A031CB0DB320062EEA5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,23 +263,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7C99E51CB0DB070062EEA5 /* Doctor1.png in Resources */,
 				3F0C5DB81CB0ACE3005E0D75 /* DoctorCard.xib in Resources */,
+				3F7C99ED1CB0DB070062EEA5 /* Doctor9.png in Resources */,
+				3F7C99E71CB0DB070062EEA5 /* Doctor3.png in Resources */,
 				3F0C5DB01CB077FE005E0D75 /* LaunchScreen.storyboard in Resources */,
+				3F7C99E61CB0DB070062EEA5 /* Doctor2.png in Resources */,
+				3F7C99EA1CB0DB070062EEA5 /* Doctor6.png in Resources */,
+				3F7C99E81CB0DB070062EEA5 /* Doctor4.png in Resources */,
+				3F7C99E91CB0DB070062EEA5 /* Doctor5.png in Resources */,
 				3F0C5DAD1CB077FE005E0D75 /* Assets.xcassets in Resources */,
+				3F7C99EC1CB0DB070062EEA5 /* Doctor8.png in Resources */,
 				3F0C5DAB1CB077FE005E0D75 /* Main.storyboard in Resources */,
+				3F7C99EB1CB0DB070062EEA5 /* Doctor7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BFAB7BFE526FE40904E7CB1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		15EF3F5311C2C6BA0AA7CA0B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MDChat/Pods-MDChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3EC7FF2427DA4CA0BB9A3D4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MDChat/Pods-MDChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3F0C5D9E1CB077FD005E0D75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FDE03B71CB14577004BE5E9 /* DoctorSelect.swift in Sources */,
 				3F0C5DBC1CB0B1F4005E0D75 /* DoctorCard.swift in Sources */,
 				3F0C5DBA1CB0B11C005E0D75 /* DoctorPickerViewController.swift in Sources */,
+				3F7C9A071CB0DB5C0062EEA5 /* DocDatabase.swift in Sources */,
+				3F0C5DC21CB0CB2A005E0D75 /* LoadingViewController.swift in Sources */,
 				3F0C5DA81CB077FE005E0D75 /* ViewController.swift in Sources */,
+				3F7C9A061CB0DB5C0062EEA5 /* DoctorObj.swift in Sources */,
 				3F0C5DA61CB077FE005E0D75 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,23 +452,35 @@
 		};
 		3F0C5DB51CB077FE005E0D75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 793DAB3456EE0DD7972BF037 /* Pods-MDChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MDChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thm.MDChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MDChat/MDChat-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		3F0C5DB61CB077FE005E0D75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A57BC5AAAE982D47A8841A33 /* Pods-MDChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MDChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thm.MDChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MDChat/MDChat-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -298,6 +503,7 @@
 				3F0C5DB61CB077FE005E0D75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,8 +8,12 @@
 
 import UIKit
 
-class DoctorCard: UIView {
+protocol CardReplacement {
+    func switchView()
+}
 
+class DoctorCard: UIView {
+    
     /*
     // Only override drawRect: if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
@@ -17,6 +21,30 @@ class DoctorCard: UIView {
         // Drawing code
     }
     */
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var spec: UILabel!
+    @IBOutlet weak var profPic: UIImageView!
+    
+    
+    func setup(doc: Doctor) {
+        spec.text = ""
+        name.text = doc.firstName + " " + doc.lastName
+        
+        for item in doc.specialistIn {
+        spec.text! += " " + item
+        }
+        
+        profPic.image = doc.image
+        
+    }
+    
+    var delegate: CardReplacement!
 
+    @IBAction func acceptDidTouch(sender: AnyObject) {
+        Smooch.show()
+    }
 
+    @IBAction func replaceDidTouch(sender: AnyObject) {
+        delegate.switchView()
+    }
 }

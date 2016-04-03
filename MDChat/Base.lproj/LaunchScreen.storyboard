@@ -14,14 +14,31 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sslogo" translatesAutoresizingMaskIntoConstraints="NO" id="ulV-7y-AQz">
+                                <rect key="frame" x="111" y="281" width="153" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="106" id="dTU-fj-ZQ5"/>
+                                    <constraint firstAttribute="width" constant="153" id="e8d-gs-xmA"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.84705882349999995" green="0.0" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ulV-7y-AQz" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="7ns-hT-G3g"/>
+                            <constraint firstItem="ulV-7y-AQz" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="BAP-pK-hQ0"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="sslogo" width="153" height="106"/>
+    </resources>
 </document>
