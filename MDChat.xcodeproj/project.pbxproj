@@ -12,6 +12,9 @@
 		3F0C5DAB1CB077FE005E0D75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C5DA91CB077FE005E0D75 /* Main.storyboard */; };
 		3F0C5DAD1CB077FE005E0D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C5DAC1CB077FE005E0D75 /* Assets.xcassets */; };
 		3F0C5DB01CB077FE005E0D75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C5DAE1CB077FE005E0D75 /* LaunchScreen.storyboard */; };
+		3F0C5DB81CB0ACE3005E0D75 /* DoctorCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C5DB71CB0ACE3005E0D75 /* DoctorCard.xib */; };
+		3F0C5DBA1CB0B11C005E0D75 /* DoctorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C5DB91CB0B11C005E0D75 /* DoctorPickerViewController.swift */; };
+		3F0C5DBC1CB0B1F4005E0D75 /* DoctorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C5DBB1CB0B1F4005E0D75 /* DoctorCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		3F0C5DAC1CB077FE005E0D75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F0C5DAF1CB077FE005E0D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F0C5DB11CB077FE005E0D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0C5DB71CB0ACE3005E0D75 /* DoctorCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoctorCard.xib; sourceTree = "<group>"; };
+		3F0C5DB91CB0B11C005E0D75 /* DoctorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorPickerViewController.swift; sourceTree = "<group>"; };
+		3F0C5DBB1CB0B1F4005E0D75 /* DoctorCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				3F0C5DA51CB077FE005E0D75 /* AppDelegate.swift */,
 				3F0C5DA71CB077FE005E0D75 /* ViewController.swift */,
 				3F0C5DA91CB077FE005E0D75 /* Main.storyboard */,
+				3F0C5DB91CB0B11C005E0D75 /* DoctorPickerViewController.swift */,
+				3F0C5DB71CB0ACE3005E0D75 /* DoctorCard.xib */,
+				3F0C5DBB1CB0B1F4005E0D75 /* DoctorCard.swift */,
 				3F0C5DAC1CB077FE005E0D75 /* Assets.xcassets */,
 				3F0C5DAE1CB077FE005E0D75 /* LaunchScreen.storyboard */,
 				3F0C5DB11CB077FE005E0D75 /* Info.plist */,
@@ -122,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0C5DB81CB0ACE3005E0D75 /* DoctorCard.xib in Resources */,
 				3F0C5DB01CB077FE005E0D75 /* LaunchScreen.storyboard in Resources */,
 				3F0C5DAD1CB077FE005E0D75 /* Assets.xcassets in Resources */,
 				3F0C5DAB1CB077FE005E0D75 /* Main.storyboard in Resources */,
@@ -135,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0C5DBC1CB0B1F4005E0D75 /* DoctorCard.swift in Sources */,
+				3F0C5DBA1CB0B11C005E0D75 /* DoctorPickerViewController.swift in Sources */,
 				3F0C5DA81CB077FE005E0D75 /* ViewController.swift in Sources */,
 				3F0C5DA61CB077FE005E0D75 /* AppDelegate.swift in Sources */,
 			);

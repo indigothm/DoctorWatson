@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="325" height="235"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cardBG" translatesAutoresizingMaskIntoConstraints="NO" id="Ivx-dG-pVI">
+                    <rect key="frame" x="0.0" y="18" width="325" height="217"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="testCircle" translatesAutoresizingMaskIntoConstraints="NO" id="g4b-2F-spc">
+                    <rect key="frame" x="106" y="0.0" width="113" height="106"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. Gregory House" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGV-i5-1eF">
+                    <rect key="frame" x="96" y="121" width="133" height="20"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                    <color key="textColor" red="0.25882352939999997" green="0.22352941179999999" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="infectious disease specialist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49L-sU-qEP">
+                    <rect key="frame" x="78" y="148" width="168" height="16"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                    <color key="textColor" red="0.84705882349999995" green="0.0" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UzY-hg-Pq8">
+                    <rect key="frame" x="162" y="190" width="1" height="30"/>
+                    <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Xce-Yj-eJd"/>
+                        <constraint firstAttribute="width" constant="1" id="x6r-rX-0Ub"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WdQ-5b-rx2">
+                    <rect key="frame" x="218" y="190" width="43" height="28"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                    <state key="normal" title="Accept">
+                        <color key="titleColor" red="0.14509803921568629" green="0.6588235294117647" blue="0.54509803921568623" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mSH-lu-3F4">
+                    <rect key="frame" x="58" y="190" width="48" height="28"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                    <state key="normal" title="Replace">
+                        <color key="titleColor" red="0.84705882352941175" green="0.0" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.92549019610000005" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Ivx-dG-pVI" secondAttribute="trailing" id="BTn-aJ-NUf"/>
+                <constraint firstItem="WdQ-5b-rx2" firstAttribute="top" secondItem="Ivx-dG-pVI" secondAttribute="bottom" constant="-45" id="CNc-ap-6Mv"/>
+                <constraint firstItem="g4b-2F-spc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="O8t-1e-VKT"/>
+                <constraint firstItem="g4b-2F-spc" firstAttribute="centerX" secondItem="Ivx-dG-pVI" secondAttribute="centerX" id="OqR-ef-aRO"/>
+                <constraint firstItem="WdQ-5b-rx2" firstAttribute="leading" secondItem="Ivx-dG-pVI" secondAttribute="trailing" constant="-107" id="Tbd-FZ-Uuu"/>
+                <constraint firstItem="UzY-hg-Pq8" firstAttribute="centerX" secondItem="Ivx-dG-pVI" secondAttribute="centerX" id="Vil-wC-dCf"/>
+                <constraint firstItem="Ivx-dG-pVI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="18" id="XGS-nw-jXZ"/>
+                <constraint firstItem="Ivx-dG-pVI" firstAttribute="leading" secondItem="mSH-lu-3F4" secondAttribute="trailing" constant="-106" id="drv-OF-fbZ"/>
+                <constraint firstItem="mSH-lu-3F4" firstAttribute="top" secondItem="Ivx-dG-pVI" secondAttribute="bottom" constant="-45" id="gkg-Cz-oGd"/>
+                <constraint firstItem="rGV-i5-1eF" firstAttribute="top" secondItem="g4b-2F-spc" secondAttribute="bottom" constant="15" id="l65-3P-vgm"/>
+                <constraint firstAttribute="bottom" secondItem="Ivx-dG-pVI" secondAttribute="bottom" id="oyZ-Fg-KcQ"/>
+                <constraint firstItem="49L-sU-qEP" firstAttribute="top" secondItem="rGV-i5-1eF" secondAttribute="bottom" constant="7" id="q7m-Jn-S5T"/>
+                <constraint firstAttribute="bottom" secondItem="UzY-hg-Pq8" secondAttribute="bottom" constant="15" id="sHk-3d-g7k"/>
+                <constraint firstItem="49L-sU-qEP" firstAttribute="centerX" secondItem="Ivx-dG-pVI" secondAttribute="centerX" id="wpN-Hv-3Q6"/>
+                <constraint firstItem="rGV-i5-1eF" firstAttribute="centerX" secondItem="Ivx-dG-pVI" secondAttribute="centerX" id="y59-9l-TPV"/>
+                <constraint firstItem="Ivx-dG-pVI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="z8u-TO-MvC"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="324.5" y="339.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cardBG" width="333" height="225"/>
+        <image name="testCircle" width="113" height="106"/>
+    </resources>
+</document>
